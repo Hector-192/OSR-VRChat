@@ -1,0 +1,7 @@
+flask
+flask[async]
+loguru
+websockets
+python-osc
+pyyaml
+pyserial

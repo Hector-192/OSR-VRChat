@@ -15,7 +15,7 @@ from pythonosc.dispatcher import Dispatcher
 from collections import deque
 import webbrowser
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 CONFIG_FILE_VERSION  = 'v0.1.2'
 CONFIG_FILENAME = f'settings-advanced-{CONFIG_FILE_VERSION}.yaml'
